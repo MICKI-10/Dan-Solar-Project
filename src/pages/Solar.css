@@ -1,0 +1,77 @@
+.main-banner {
+  width: 100%;
+  height: 145px;
+  position: absolute;
+  margin: 0 !important;
+  top: 833px;
+  right: 0;
+  left: 0;
+  background: linear-gradient(
+    50.68deg,
+    #f0fbff,
+    #f0fbff,
+    #f5fcff 0.01%,
+    #f0f0f0
+  );
+}
+.kia-sorento-sx-at-4wd-suv-angu {
+  align-self: stretch;
+  height: 977.6px;
+  position: relative;
+  display: none;
+  z-index: 2;
+}
+.our-previous-work {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  font-family: inherit;
+}
+.placeholder-text-sample,
+.solar {
+  display: flex;
+  justify-content: flex-start;
+}
+.placeholder-text-sample {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.solar {
+  width: 100%;
+  position: relative;
+  background-color: var(--neutral-colors-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-87xl);
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-gray-600);
+  font-family: var(--semibold-type16);
+}
+@media screen and (max-width: 750px) {
+  .our-previous-work {
+    font-size: var(--font-size-19xl);
+    line-height: 58px;
+  }
+  .solar {
+    gap: var(--gap-87xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .our-previous-work {
+    font-size: var(--font-size-10xl);
+    line-height: 43px;
+  }
+  .solar {
+    gap: var(--gap-87xl);
+  }
+}

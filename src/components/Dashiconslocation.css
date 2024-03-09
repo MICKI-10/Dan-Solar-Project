@@ -1,0 +1,425 @@
+.how-it-works {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  font-family: inherit;
+}
+.examplegmailcom {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-9xs);
+}
+.weve-streamlined-the {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-single-200-regular-size);
+  line-height: 150%;
+  color: var(--black);
+  text-align: center;
+}
+.lorem-ipsum-text {
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xl);
+  box-sizing: border-box;
+  gap: var(--gap-4xs);
+  max-width: 100%;
+}
+.frame-adjacent {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.4px;
+  right: 0;
+  bottom: -0.4px;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-silver);
+}
+.healthiconsmoney-bag-outline {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-adjacent-parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.secondary-circle-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 0;
+}
+.link-nav-link-master-link-serv {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.john-doe-message-box {
+  height: 88px;
+  width: 355px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-sendusamessage {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.4px;
+  right: 0;
+  bottom: -0.4px;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-silver);
+}
+.fluentapps-list-detail-24-reg-icon {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-sendusamessage-parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-sm) var(--padding-lg)
+    var(--padding-3xl);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+.social-media-icons-child {
+  align-self: stretch;
+  height: 83.3px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.send-message-button,
+.social-media-icons {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  min-width: 231px;
+  max-width: 100%;
+}
+.send-message-button {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-8xs) 0 0;
+  gap: var(--gap-lg);
+  min-width: 315px;
+}
+.frame-child {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.4px;
+  right: 0;
+  bottom: -0.4px;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-silver);
+}
+.basilcheck-outline-icon,
+.fluentpayment-16-regular-icon {
+  position: absolute;
+  top: -0.4px;
+  left: 0;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  z-index: 1;
+}
+.basilcheck-outline-icon {
+  top: 22.2px;
+  left: 43px;
+  width: 36px;
+  height: 36.7px;
+  z-index: 2;
+}
+.fluentpayment-16-regular-parent {
+  height: 70px;
+  flex: 1;
+  position: relative;
+}
+.rectangle-parent {
+  width: 106px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-lg) var(--padding-4xs) var(--padding-lg)
+    var(--padding-lg);
+  box-sizing: border-box;
+  position: relative;
+}
+.rectangle-shape,
+.text-block-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangle-shape {
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap-lg);
+}
+.text-block-heading {
+  width: 1138px;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-3xl);
+  box-sizing: border-box;
+}
+.select-your-donation {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.aliquam-erat-volutpat {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 175%;
+}
+.secondary-circle-button2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lgi) 0 var(--padding-7xl);
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+.secondary-circle-button1 {
+  width: 322px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  max-width: 100%;
+  text-align: left;
+}
+.provide-your-information {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.aliquam-erat-volutpat1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: -0.02em;
+  line-height: 175%;
+}
+.frame-text {
+  width: 294px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+}
+.complete-your-donation {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.aliquam-erat-volutpat2 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: -0.02em;
+  line-height: 175%;
+}
+.frame-text1 {
+  width: 278px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.header-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--black);
+}
+.dashiconslocation,
+.examplegmailcom-text {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.examplegmailcom-text {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-10xl);
+}
+.dashiconslocation {
+  width: 1378px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-29xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-gray-600);
+  font-family: var(--semibold-type16);
+}
+
+
+
+@media screen and (max-width: 1100px) {
+  .social-media-icons{
+    display: none;
+   }
+   .john-doe-message-box{
+    display: none;
+   }
+ 
+}
+
+@media screen and (max-width: 800px) {
+  .header-container {
+    flex-wrap: wrap;
+  }
+  .how-it-works {
+    font-size: var(--font-size-10xl);
+    line-height: 43px;
+  }
+  .frame-text{
+    align-items: center;
+    margin-top:-350px;
+  }.frame-text1{
+    align-items: center;
+    margin-top:-50px;
+  }
+  .send-message-button {
+    flex-wrap: wrap;
+  }
+  .complete-your-donation,
+  .provide-your-information,
+  .select-your-donation {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .rectangle-shape{
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-block-heading{
+    flex-direction: column;
+    align-content: center;
+  }
+  .dashiconslocation{
+    flex-direction: column;
+    align-content: center;
+  }
+  .examplegmailcom-text{
+    flex-direction: column;
+    align-content: center;
+  }
+  
+  .frame-sendusamessage-parent{
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+
+  }
+  .header-container{
+    justify-content: center;
+    align-content: center;
+  }
+  .rectangle-parent{
+    margin-left: - 29px;
+    margin-top: 200px;
+  }
+ .social-media-icons{
+  display: none;
+ }
+ .john-doe-message-box{
+  display: none;
+ }
+ .send-message-button{
+  justify-content: center;
+ }
+ .secondary-circle-button{
+  margin-left: 30px;
+  margin-bottom: 150px;
+ }
+ .select-your-donation{
+  margin-top: -620px;
+ }
+ }
+  
+ 
+ 
+

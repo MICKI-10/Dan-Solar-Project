@@ -1,0 +1,138 @@
+.send-feedback-icon {
+  width: 566px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.info-box-child {
+  position: absolute;
+  top: 0.3px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.mdiprofessional-hexagon-icon {
+  position: absolute;
+  top: 11px;
+  left: 11px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  z-index: 1;
+}
+.info-box {
+  height: 52px;
+  width: 52px;
+  position: relative;
+}
+.expertise-and-experience {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.with-years-of {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--semibold-type16-size);
+  letter-spacing: -0.02em;
+  line-height: 175%;
+  color: var(--color-gray-500);
+}
+.info-box1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+  min-width: 281px;
+}
+.empty-content-box1,
+.exampleemailexamplecom,
+.info-box1,
+.john-doe-placeholder1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.empty-content-box1 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.exampleemailexamplecom,
+.john-doe-placeholder1 {
+  flex-direction: column;
+}
+.exampleemailexamplecom {
+  align-self: stretch;
+  gap: var(--gap-21xl);
+}
+.john-doe-placeholder1 {
+  width: 508px;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 508px;
+}
+.frame-text-color,
+.our-dream-team {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.our-dream-team {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-text-color {
+  width: 1366px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-28xl) var(--padding-76xl) var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--black);
+  font-family: var(--semibold-type16);
+}
+@media screen and (max-width: 1275px) {
+  .john-doe-placeholder1,
+  .send-feedback-icon {
+    flex: 1;
+  }
+  .our-dream-team {
+    flex-wrap: wrap;
+  }
+  .frame-text-color {
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .exampleemailexamplecom {
+    gap: var(--gap-21xl);
+  }
+  .john-doe-placeholder1 {
+    min-width: 100%;
+  }
+  .frame-text-color {
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .expertise-and-experience {
+    font-size: var(--text-single-200-regular-size);
+    line-height: 26px;
+  }
+  .empty-content-box1 {
+    flex-wrap: wrap;
+  }
+}

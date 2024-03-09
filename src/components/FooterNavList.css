@@ -1,0 +1,496 @@
+.contact-child {
+  height: 560px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  min-height: 560px;
+}
+.contact-us-page-child {
+  align-self: stretch;
+  width: 996px;
+  position: relative;
+  border-radius: 0 var(--br-3xs) 0 0;
+  background: linear-gradient(
+    80.56deg,
+    rgba(15, 113, 147, 0.7) 3%,
+    rgba(35, 167, 220, 0.7) 3.13%,
+    rgba(255, 255, 255, 0.7) 98.67%
+  );
+  backdrop-filter: blur(7px);
+  display: none;
+  max-width: 100%;
+}
+.contact-us1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 160%;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 2;
+}
+.thank-you-for {
+  height: 62px;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 175%;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 2;
+}
+.send-button {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.circummobile-3-icon {
+  height: 31px;
+  width: 31px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.send-button-node {
+  position: relative;
+  line-height: 160%;
+}
+.example-email-address {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.mdi-lightemail-icon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.wwwdansolarcom {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 160%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.nav-list-link-master {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.message-sender-node {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 181px;
+}
+.carbonphone-icon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.b1 {
+  position: relative;
+  line-height: 160%;
+  white-space: nowrap;
+}
+.carbonphone-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.fluentfax-20-regular-icon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.b2 {
+  position: relative;
+  line-height: 160%;
+}
+.fluentfax-20-regular-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.email-input,
+.message-sender-node1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.email-input {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-46xl);
+  z-index: 2;
+}
+.footer-content-node {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-700);
+  backdrop-filter: blur(8px);
+  border: 0 solid var(--color-lightslategray-100);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.dashiconslocation1 {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+  z-index: 4;
+}
+.send-image-button {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin: 0 !important;
+  right: -25px;
+  bottom: -25px;
+}
+.contact-info,
+.services-link-name,
+.thank-you-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.services-link-name {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.contact-info,
+.thank-you-frame {
+  flex-direction: column;
+}
+.contact-info {
+  width: 551px;
+  gap: var(--gap-mini);
+  font-size: var(--font-size-5xl);
+}
+.thank-you-frame {
+  flex: 1;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+}
+.send-us-a {
+  margin: 0;
+}
+.we-will-reply {
+  margin: 0;
+  font-size: var(--semibold-type16-size);
+  color: var(--color-gray-800);
+}
+.send-us-a-container {
+  align-self: stretch;
+  height: 62px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 132.5%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.thank-you-message {
+  border: 0;
+  background-color: transparent;
+  height: 46px;
+  flex: 1;
+  font-family: var(--semibold-type16);
+  font-size: var(--semibold-type16-size);
+  color: var(--color-darkslategray-300);
+}
+.group-frame {
+  width: 269px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-smi);
+  box-sizing: border-box;
+}
+.contact-icon-placeholder {
+  border: 0;
+  background-color: transparent;
+  width: 271px;
+  height: 46px;
+  font-family: var(--semibold-type16);
+  font-size: var(--semibold-type16-size);
+  color: var(--color-darkslategray-300);
+}
+.contact-container,
+.frame-content1,
+.link-master-nav-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-container {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 var(--padding-7xs);
+  gap: var(--gap-5xs);
+}
+.frame-content1,
+.link-master-nav-list {
+  flex-direction: row;
+}
+.link-master-nav-list {
+  border: 0.5px solid var(--color-steelblue-200);
+  background-color: transparent;
+  height: 230px;
+  width: auto;
+  outline: 0;
+  flex: 1;
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: var(--padding-9xs) var(--padding-mid);
+  font-family: var(--semibold-type16);
+  font-size: var(--semibold-type16-size);
+  color: var(--color-darkslategray-300);
+}
+.frame-content1 {
+  align-self: stretch;
+  padding: 0 var(--padding-base) 0 0;
+}
+.social-media-icon-group {
+  height: 46px;
+  flex: 1;
+}
+.nav-list-component {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0 0;
+}
+.contact-form-footer {
+  width: 315px;
+  border-radius: 0 var(--br-3xs) var(--br-3xs) 0;
+  background-color: var(--neutral-colors-white);
+  box-shadow: -79px 0 22px transparent, -50px 0 20px rgba(84, 84, 84, 0.01),
+    -28px 0 17px rgba(84, 84, 84, 0.05), -13px 0 13px rgba(84, 84, 84, 0.09),
+    -3px 0 7px rgba(84, 84, 84, 0.1), 0 0 0 rgba(84, 84, 84, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-7xs) var(--padding-20xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  min-width: 315px;
+  z-index: 2;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-100);
+}
+.contact,
+.contact-us-page,
+.footer-nav-list1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contact-us-page {
+  width: 996px;
+  border-radius: 0 var(--br-3xs) 0 0;
+  background: linear-gradient(
+    80.56deg,
+    rgba(15, 113, 147, 0.7) 3%,
+    rgba(35, 167, 220, 0.7) 3.13%,
+    rgba(255, 255, 255, 0.7) 98.67%
+  );
+  backdrop-filter: blur(7px);
+  align-items: center;
+  padding: 0 0 0 var(--padding-55xl);
+  gap: var(--gap-17xl);
+  z-index: 1;
+  margin-left: -700px;
+}
+.contact,
+.footer-nav-list1 {
+  align-items: flex-start;
+}
+.contact {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  box-shadow: 147px 231px 77px transparent,
+    94px 148px 70px rgba(143, 143, 143, 0.01),
+    53px 83px 59px rgba(143, 143, 143, 0.05),
+    23px 37px 44px rgba(143, 143, 143, 0.09),
+    6px 9px 24px rgba(143, 143, 143, 0.1), 0 0 0 rgba(143, 143, 143, 0.1);
+  overflow: hidden;
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.footer-nav-list1 {
+  width: 1382px;
+  padding: 0 var(--padding-xl) var(--padding-14xl);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--neutral-colors-white);
+  font-family: var(--semibold-type16);
+}
+
+@media screen and (max-width: 450px) {
+  .send-us-a-container > span > .send-us-a{
+    margin-bottom: -19px;
+  }
+  .send-us-a-container > span > .we-will-reply{
+    margin-bottom: 32px;
+  }
+  .footer-nav-list1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-content: center;
+ 
+  }
+  .contact{
+    flex:1;
+    /* gap: 15px; */
+    flex-wrap: wrap;
+    justify-content: end;
+    /* align-content: center; */
+  }
+  .contact-container{
+    align-items: center;
+  }
+  .frame-content1{
+    align-content: center;
+    margin-left: 16px;
+  }
+  .contact-form-footer{
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    /* align-content: center; */
+  }
+  .nav-list-component{
+    margin-left: 16px;
+  }
+  .contact-us1 {
+    font-size: var(--font-size-5xl);
+    line-height: 38px;
+  }
+  .thank-you-for {
+    font-size: var(--semibold-type16-size);
+    line-height: 28px;
+  }
+  .b1,
+  .b2,
+  .send-button-node,
+  .wwwdansolarcom {
+    font-size: var(--font-size-lgi);
+    line-height: 31px;
+  }
+  .email-input {
+    gap: var(--gap-46xl);
+  }
+  
+}
+@media (max-width: 767px) {
+  .contact-form-footer {
+    width: 100%; /* Adjust width for smaller screens */
+    border-radius: 0; /* Remove border-radius for smaller screens */
+    box-shadow: none; /* Remove box-shadow for smaller screens */
+    padding: var(--padding-7xl) var(--padding-7xs); /* Adjust padding for smaller screens */
+    font-size: var(--font-size-md); /* Adjust font-size for smaller screens */
+  }
+}
+@media screen and (max-width: 1100px) {
+  .contact-form-footer {
+    flex: 1;
+  }
+  .contact-us-page {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .contact-us-page {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .contact-us1 {
+    font-size: var(--font-size-13xl);
+    line-height: 51px;
+    margin-top: 10px;
+  }
+  .email-input {
+    flex-wrap: wrap;
+    gap: var(--gap-46xl);
+  }
+  .contact-form-footer {
+    padding-top: 70px;
+    
+    box-sizing: border-box;
+  }
+  .contact-us-page{
+    margin-bottom: 70px;
+  }
+  .contact-child{
+    margin-top: -150px;
+    margin-right: 340px;
+    opacity: 50%;
+  }
+  
+ 
+}
+
+
+
+
+
+
+
+
+
+
+

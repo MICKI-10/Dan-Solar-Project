@@ -1,0 +1,222 @@
+.master-link-about {
+  width: 140px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 160%;
+  display: flex;
+  background: linear-gradient(18.36deg, #23a7dc, #0f7193), rgba(26, 32, 44, 0.8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-items: center;
+  flex-shrink: 0;
+}
+.master-link-home {
+  width: 124px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.solar-panels-planted {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: -0.02em;
+  line-height: 160%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.social-media-icon {
+  height: 140px;
+  width: 245px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.send-message-form {
+  width: 226px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 160%;
+  display: flex;
+  background: linear-gradient(18.36deg, #23a7dc, #0f7193), rgba(26, 32, 44, 0.8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-items: center;
+  flex-shrink: 0;
+}
+.frame-content-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-link-master{
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-538xl);
+  flex-shrink: 0;
+}
+.money-collected {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: -0.02em;
+  line-height: 160%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.master-link-contact,
+.master-link-testimonials {
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.master-link-contact {
+  width: 226px;
+  align-items: center;
+  padding: 0 var(--padding-base) 0 0;
+  box-sizing: border-box;
+}
+.master-link-testimonials {
+  width: 274px;
+  align-items: flex-start;
+}
+.b {
+  width: 165px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 160%;
+  display: flex;
+  background: linear-gradient(18.36deg, #23a7dc, #0f7193), rgba(26, 32, 44, 0.8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-items: center;
+  flex-shrink: 0;
+}
+.wrapper {
+  width: 161px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-smi);
+  box-sizing: border-box;
+}
+.countries-helped {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: -0.02em;
+  line-height: 160%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.social-media-icon1 {
+  height: 140px;
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer-nav-list,
+.transforming-communities-one-s {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footer-nav-list {
+  height: 173px;
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--neutral-colors-white);
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-82xl) var(--padding-4xl)
+    var(--padding-95xl);
+  gap: var(--gap-xl);
+  z-index: 5;
+}
+.transforming-communities-one-s {
+  width: 1314px;
+  height: 190px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-mid);
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-400);
+  font-family: var(--semibold-type16);
+}
+@media screen and (max-width: 1275px) {
+  .footer-nav-list {
+    padding-left: var(--padding-38xl);
+    padding-right: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .b,
+  .master-link-about,
+  .send-message-form {
+    font-size: var(--font-size-32xl);
+    line-height: 82px;
+  }
+  .footer-nav-list {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .master-link-about {
+    font-size: var(--font-size-19xl);
+    line-height: 61px;
+  }
+  .solar-panels-planted {
+    font-size: var(--font-size-lgi);
+    line-height: 31px;
+  }
+  .send-message-form {
+    font-size: var(--font-size-19xl);
+    line-height: 61px;
+  }
+  .money-collected {
+    font-size: var(--font-size-lgi);
+    line-height: 31px;
+    margin-left: -100px;
+  }
+  .b {
+    font-size: var(--font-size-19xl);
+    line-height: 61px;
+  }
+  .countries-helped {
+    font-size: var(--font-size-lgi);
+    line-height: 31px;
+  }
+   .footer-nav-list{
+    
+
+    height: 189px;
+  } 
+  .social{
+    display: inline-block;
+    width: 80px;
+    align-content: center;
+  }
+  .master-link-testimonials{
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+  }
+  
+}

@@ -1,0 +1,96 @@
+.ads-7-icon,
+.ads-8-icon {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.ads-7-icon {
+  height: 232px;
+  flex-shrink: 0;
+}
+.ads-8-icon {
+  flex: 1;
+  max-height: 100%;
+}
+.lorem-ipsum-text1 {
+  height: 678px;
+  width: 571px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  max-width: 100%;
+}
+.ads-5-icon,
+.ads-6-icon {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.ads-6-icon {
+  flex: 1;
+  max-height: 100%;
+}
+.ads-5-icon {
+  height: 232px;
+  flex-shrink: 0;
+}
+.lorem-ipsum-text2 {
+  height: 678px;
+  width: 571px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  max-width: 100%;
+}
+.nav-list,
+.send-message-frame,
+.social-media-icon-square-faceb {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.social-media-icon-square-faceb {
+  width: 2430px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 126%;
+}
+.nav-list,
+.send-message-frame {
+  box-sizing: border-box;
+}
+.nav-list {
+  width: 1935px;
+  justify-content: flex-start;
+  padding: 0;
+  max-width: 134%;
+}
+.send-message-frame {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-158xl) 0;
+  max-width: 100%;
+}
+@media screen and (max-width: 1100px) {
+  .social-media-icon-square-faceb {
+  opacity: 20%;
+  z-index: -999;
+  
+  }
+}
+
+
+
